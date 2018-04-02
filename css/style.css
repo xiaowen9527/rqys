@@ -62,13 +62,10 @@ nav ul li a{
 .banner{
 	width: 100%;
 	height: 4.58rem;
-	background: red;
+	position: relative;
 }
 
-.swiper-container {
-  width: 100%;
-  height: 100%;
-}
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;
