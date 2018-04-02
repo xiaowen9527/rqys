@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-4.2.0.min.css"/>
+		
+	</head>
+
+	
+	<body>
+		
+		<header class="cl">
+			<a href="index.html" class="logo fl"><img src="img/logo.png"/></a>
+			<p class="fr cl">
+				<span>微信:</span>
+				<span>JY94715</span>
+			</p>
+		</header>
+		<nav>
+			<ul class="cl">
+				<li><a href="">仁青益寿中医</a></li>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">仁青益寿文化</a></li>
+			</ul>
+		</nav>
+		<article>
+		  	<section class="swiper-container">
+		   	 	<ul class="swiper-wrapper">
+			      	<li class="swiper-slide"><img src="images/banner-first.png"/></li>
+			      	<li class="swiper-slide"><img src="images/banner-secod.png"/></li>
+			
+			    </ul>
+    <!-- Add Pagination -->
+    			<div class="swiper-pagination"></div>
+  			</section>
+		<article>
+		
+		<script src="js/font.js"></script>
+		<script src="js/swiper-4.2.0.min.js"></script>
+		<script src="js/index.js"></script>
+		<script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        loop : true,
+        loopedSlides: 2,
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + '</span>';
+        },
+      },
+    });		
+		</script>
+	</body>
+</html>

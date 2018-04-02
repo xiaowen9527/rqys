@@ -1,0 +1,39 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-size: 100px;
+	font-family: 'Microsoft YaHei';
+}
+
+ul li{
+	list-style: none;
+}
+
+body{
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+img{
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.cl:after{
+	clear:both;
+	content:'';
+}
+

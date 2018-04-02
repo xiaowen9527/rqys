@@ -1,2 +1,1 @@
 # rqys
-rqys.github.io
