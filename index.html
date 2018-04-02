@@ -43,17 +43,19 @@
 		<script src="js/swiper-4.2.0.min.js"></script>
 		<script src="js/index.js"></script>
 		<script>
-    var swiper = new Swiper('.swiper-container', {
-      pagination: {
-        el: '.swiper-pagination',
-        loop : true,
-        loopedSlides: 2,
-        clickable: true,
-        renderBullet: function (index, className) {
-          return '<span class="' + className + '">' + (index + 1) + '</span>';
-        },
-      },
-    });		
+	    var swiper = new Swiper('.swiper-container', {
+	      	pagination: {
+	        	el: '.swiper-pagination',
+	        	clickable: true,
+	        	renderBullet: function (index, className) {
+	          		return '<span class="' + className + '">' + (index + 1) + '</span>';
+	        	},
+	      	},
+	      	loop: true,
+		    slidesPerView: 'auto',
+		    loopedSlides:2,
+	    });	
+		 	    
 		</script>
 	</body>
 </html>
