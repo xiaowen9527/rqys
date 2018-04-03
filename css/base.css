@@ -11,10 +11,6 @@ ul li{
 	list-style: none;
 }
 
-body{
-	max-width: 640px;
-	margin: 0 auto;
-}
 
 img{
 	width: 100%;
@@ -22,6 +18,11 @@ img{
 
 a{
 	text-decoration: none;
+}
+
+body{
+	width: 16rem;
+	margin: 0 auto;
 }
 
 .fl{
