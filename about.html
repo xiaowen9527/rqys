@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-4.2.0.min.css"/>
+		
+	</head>
+
+	
+	<body>
+		
+		<header class="cl">
+			<a href="index.html" class="logo fl"><img src="img/logo.png"/></a>
+			<p class="fr cl">
+				<span>微信:</span>
+				<span>JY94715</span>
+			</p>
+		</header>
+		<nav>
+			<ul class="cl">
+				<li><a href="index.html">仁青益寿中医</a></li>
+				<li><a href="about.html">关于我们</a></li>
+				<li><a href="culture.html">仁青益寿文化</a></li>
+			</ul>
+		</nav>
+		<article>
+		  	<section class="banner">
+		   	 	<ul class="swiper-wrapper">
+			      	<li class="swiper-slide"><img src="images/banner-third.png"/></li>
+			      	<li class="swiper-slide"><img src="images/banner-first.png"/></li>
+			      	<li class="swiper-slide"><img src="images/banner-secod.png"/></li>
+			    </ul>
+    			<div class="swiper-pagination"></div>
+  			</section>
+  			<section class="about">
+  				<hgroup><img src="images/about-title.png"/></hgroup>
+				<div class="about-content">
+					<img src="images/about-pic1.png"/>
+					<div class="about-xuanze">
+						<img src="images/about-title-pic1.png"/>
+						<p class="title">仁青益寿中医</p>
+						<p class="con">成都仁青益寿健康管理有限公司，创立至今望测病势，食医彰道，颇有建树，专注中医睡眠调理，汇聚众多国内知名中医大家，更有北京中医药大学东直门医院睡眠专家储诗华坐镇，诗华老师秉承中医辨病辩证精髓的基础上，独创“五维优眠法”，调节五脏六腑的功能状态，恢复人体阴阳平衡。成都仁青益寿中医历史悠久，经无数春秋寒暑历练留存中医精华，悬壶于今，尽受好评！
+</p>
+					</div>
+					<div class="text">
+						<p>我们的使命：仁心扬国粹，中医治失眠。</p>
+						<p>调理理念：优眠有道，五维助眠。</p>
+						<p>完整的助眠体系：从五个维度来辨证、调理睡眠。</p>
+						<p><b class="bold-red">着眼五神，对应五脏，联系五行，主抓五证，运用五法。</b></p>
+						<img src="images/about-pic2.png"/>
+					</div>
+				</div>
+				<div class="yaoyuan">
+					<img src="images/about-title-pic2.png"/ class="yaoyuan-title">
+					<dl>
+						<dt>品质药源：</dt>
+						<dd>从四川盆地到青藏高原，从西北大漠至东北长白山，仁青益寿持之以恒追寻大自然的足迹，整合全优药源，采用全自营和掌控的方式建立地道中药材种植基地13个。物华天宝，药源掌控，用心灵与品质沟通!</dd>
+						<dt>成药体系：</dt>
+						<dd>润馨堂是集医疗、养生、保健、研发、教学为一体的现代化中医馆，是国家卫生和计划生育局审批的中医药诊疗机构，是中医馆医养结合模式的奠基者，渊源正统，底蕴深厚，帮助21世纪的新新人类告别失眠，专家团队量身定制中医睡眠调理良方，自主研发科学规范的成药体系，志创“现代中医老字号”。</dd>
+					</dl>
+				</div>
+				<img src="images/about-pic3.png"/ class="last-img">
+  			</section>
+		</article>
+		<footer>
+			<div class="footer-nav">
+				<ul>
+					<li><a href="index.html" class="active">仁青益寿中医</a></li>
+					<li><a href="about.html">关于我们</a></li>
+					<li><a href="culture.html">仁青益寿文化</a></li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+			<div class="footer-logo">
+				<img src="images/footer-logo.png"/>
+			</div>
+		</footer>
+
+
+		
+		<script src="js/font.js"></script>
+		<script src="js/swiper-4.2.0.min.js"></script>
+		<script src="js/index.js"></script>
+		<script>
+	    var swiper = new Swiper('.banner', {
+	      	pagination: {
+	        	el: '.swiper-pagination',
+	        	clickable: true,
+	        	renderBullet: function (index, className) {
+	          		return '<span class="' + className + '">' + (index + 1) + '</span>';
+	        	},
+	      	},
+	      	autoplay: {
+			    delay: 3000,//1秒切换一次
+			},
+	      	loop: true,
+		    slidesPerView: 'auto',
+		    loopedSlides:2,
+	    });	
+		 	    
+		</script>
+	</body>
+</html>
