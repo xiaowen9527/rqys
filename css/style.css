@@ -107,6 +107,49 @@ nav ul li a{
 } 
 
 
+.tiaoli{
+	width: 100%;
+	height: 13.64rem;
+	background: url(../images/tiaoli_bg.jpg) no-repeat;
+	background-size: cover;
+}
+
+.tiaoli hgroup{
+	height: 1.25rem;
+	width: 2.53rem;
+	margin: 0 auto;
+	padding-top: 0.15rem;
+}
+
+.tiaoli  p{
+	width: 6.10rem;
+	text-indent: 2em;
+	font-size: 0.16rem;
+	line-height: 0.24rem;
+	color: #0f0f0f;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
